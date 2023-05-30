@@ -22,7 +22,7 @@
     <column id="COL4" populated="true" UUID="33460124-7633-4d55-b7dd-9e1548821f43" autoIncrement="false" autoIncrementSequenceName="avioes_modelo_aviao_seq" defaultValue="" name="modelo_aviao" nullable="1" physicalName="modelo_aviao" precision="25" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Modelo do avião.</remarks>
     </column>
-    <column id="COL5" populated="true" UUID="fd5c4845-f45f-40ac-bc56-02e083c8e2a0" autoIncrement="false" autoIncrementSequenceName="avioes_ano_de_fabricação_seq" defaultValue="" name="ano_de_fabricação" nullable="1" physicalName="ano_de_fabricação" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL5" populated="true" UUID="fd5c4845-f45f-40ac-bc56-02e083c8e2a0" autoIncrement="false" autoIncrementSequenceName="avioes_ano_de_fabricação_seq" defaultValue="" name="ano_de_fabricacao" nullable="1" physicalName="ano_de_fabricao" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks>Ano de fabricação do avião.</remarks>
     </column>
     <column id="COL6" populated="true" UUID="92b0e4dc-f4c4-48d5-9d9a-5e411ac87878" autoIncrement="false" autoIncrementSequenceName="avioes_fabricante_seq" defaultValue="" name="fabricante" nullable="1" physicalName="fabricante" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
@@ -34,7 +34,7 @@
     <column id="COL8" populated="true" UUID="64b3602e-85b9-44f7-83d9-6d942651fa42" autoIncrement="false" autoIncrementSequenceName="avioes_capacidade_seq" defaultValue="" name="capacidade" nullable="1" physicalName="capacidade" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks>Capacidade do avião.</remarks>
     </column>
-    <column id="COL9" populated="true" UUID="cbc8cc6e-f099-4c56-b52b-9a1651ca3eee" autoIncrement="false" autoIncrementSequenceName="avioes_base_manutenção_seq" defaultValue="" name="base_manutenção" nullable="1" physicalName="base_manutenção" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+    <column id="COL9" populated="true" UUID="cbc8cc6e-f099-4c56-b52b-9a1651ca3eee" autoIncrement="false" autoIncrementSequenceName="avioes_base_manutenção_seq" defaultValue="" name="base_manutencao" nullable="1" physicalName="base_manuteno" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
      <remarks>Base de manutenção do avião.</remarks>
     </column>
     </folder>
@@ -54,31 +54,31 @@
     <column id="COL13" populated="true" UUID="e410a1fb-ff4d-48dc-9f70-e08c72ec20d5" autoIncrement="false" autoIncrementSequenceName="pilotos_id_piloto_seq" defaultValue="" name="id_piloto" nullable="0" physicalName="id_piloto" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
      <remarks>Id do piloto. (PK da tabela)</remarks>
     </column>
-    <column id="COL14" populated="true" UUID="4a1b22ad-ec82-4cb6-9472-033892acdbcd" autoIncrement="false" autoIncrementSequenceName="pilotos_nome_piloto_seq" defaultValue="" name="nome_piloto" nullable="1" physicalName="nome_piloto" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL14" populated="true" UUID="4a1b22ad-ec82-4cb6-9472-033892acdbcd" autoIncrement="false" autoIncrementSequenceName="pilotos_nome_piloto_seq" defaultValue="" name="nome" nullable="1" physicalName="nome" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Nome do piloto.</remarks>
     </column>
-    <column id="COL15" populated="true" UUID="6d6641a1-2426-434c-aaa0-97aff99608af" autoIncrement="false" autoIncrementSequenceName="pilotos_endereco_piloto_seq" defaultValue="" name="endereco_piloto" nullable="1" physicalName="endereco_piloto" precision="200" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL15" populated="true" UUID="6d6641a1-2426-434c-aaa0-97aff99608af" autoIncrement="false" autoIncrementSequenceName="pilotos_endereco_piloto_seq" defaultValue="" name="endereco" nullable="1" physicalName="endereco" precision="200" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Endereço completo do piloto.</remarks>
     </column>
-    <column id="COL16" populated="true" UUID="98b6d6c8-7d1a-494c-a04f-95a0bccaaea2" autoIncrement="false" autoIncrementSequenceName="pilotos_telefone_seq" defaultValue="" name="telefone_piloto" nullable="0" physicalName="telefone_piloto" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL16" populated="true" UUID="98b6d6c8-7d1a-494c-a04f-95a0bccaaea2" autoIncrement="false" autoIncrementSequenceName="pilotos_telefone_seq" defaultValue="" name="telefone" nullable="0" physicalName="telefone" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Telefone(s) do piloto.</remarks>
     </column>
-    <column id="COL17" populated="true" UUID="7e63959d-31b2-4f52-95f3-3c434d3a9799" autoIncrement="false" autoIncrementSequenceName="pilotos_email_seq" defaultValue="" name="email_piloto" nullable="0" physicalName="email_piloto" precision="60" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL17" populated="true" UUID="7e63959d-31b2-4f52-95f3-3c434d3a9799" autoIncrement="false" autoIncrementSequenceName="pilotos_email_seq" defaultValue="" name="email" nullable="0" physicalName="email" precision="60" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>E-mail do piloto.</remarks>
     </column>
-    <column id="COL18" populated="true" UUID="a2fc0b85-a6dc-4f4d-b064-64a05b2a78b0" autoIncrement="false" autoIncrementSequenceName="pilotos_nacionalidade_seq" defaultValue="" name="nacionalidade_piloto" nullable="1" physicalName="nacionalidade_piloto" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL18" populated="true" UUID="a2fc0b85-a6dc-4f4d-b064-64a05b2a78b0" autoIncrement="false" autoIncrementSequenceName="pilotos_nacionalidade_seq" defaultValue="" name="nacionalidade" nullable="1" physicalName="nacionalidade" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Nacionalidade do piloto.</remarks>
     </column>
-    <column id="COL19" populated="true" UUID="e73e3bd5-3769-4ef7-a31f-336c87401bee" autoIncrement="false" autoIncrementSequenceName="pilotos_cargo_seq" defaultValue="" name="cargo_piloto" nullable="1" physicalName="cargo_piloto" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL19" populated="true" UUID="e73e3bd5-3769-4ef7-a31f-336c87401bee" autoIncrement="false" autoIncrementSequenceName="pilotos_cargo_seq" defaultValue="" name="cargo" nullable="1" physicalName="cargo" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Cargo do piloto.</remarks>
     </column>
-    <column id="COL20" populated="true" UUID="290596b5-5f74-4b53-a946-ceb06a039bb3" autoIncrement="false" autoIncrementSequenceName="pilotos_salário_piloto_seq" defaultValue="" name="salário_piloto" nullable="1" physicalName="salário_piloto" precision="8" referenceCount="1" scale="2" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+    <column id="COL20" populated="true" UUID="290596b5-5f74-4b53-a946-ceb06a039bb3" autoIncrement="false" autoIncrementSequenceName="pilotos_salário_piloto_seq" defaultValue="" name="salario" nullable="1" physicalName="salario" precision="8" referenceCount="1" scale="2" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
      <remarks>Salário do piloto.</remarks>
     </column>
-    <column id="COL21" populated="true" UUID="3a5d1977-4053-41a7-9c31-b233472e97da" autoIncrement="false" autoIncrementSequenceName="pilotos_data_de_admissao_piloto_seq" defaultValue="" name="data_de_admissao_piloto" nullable="1" physicalName="data_de_admissao_piloto" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+    <column id="COL21" populated="true" UUID="3a5d1977-4053-41a7-9c31-b233472e97da" autoIncrement="false" autoIncrementSequenceName="pilotos_data_de_admissao_piloto_seq" defaultValue="" name="data_de_admissao" nullable="1" physicalName="data_de_admissao" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
      <remarks>Data de admissão do piloto.</remarks>
     </column>
-    <column id="COL22" populated="true" UUID="b6dd205b-b59b-4b36-a748-0f99fbc01a6a" autoIncrement="false" autoIncrementSequenceName="pilotos_idiomas_piloto_seq" defaultValue="" name="idiomas_piloto" nullable="1" physicalName="idiomas_piloto" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL22" populated="true" UUID="b6dd205b-b59b-4b36-a748-0f99fbc01a6a" autoIncrement="false" autoIncrementSequenceName="pilotos_idiomas_piloto_seq" defaultValue="" name="idiomas" nullable="1" physicalName="idiomas" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Idiomas falados pelo piloto.</remarks>
     </column>
     <column id="COL23" populated="true" UUID="40322647-de31-40d0-a74b-e802b5a8521d" autoIncrement="false" autoIncrementSequenceName="pilotos_horas_de_voo_seq" defaultValue="" name="horas_de_voo" nullable="1" physicalName="horas_de_voo" precision="5" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
@@ -90,8 +90,12 @@
     <column id="COL25" populated="true" UUID="903bcddd-a32c-4bd5-ab21-5d33baad86ef" autoIncrement="false" autoIncrementSequenceName="pilotos_modelos_de_aviao_seq" defaultValue="" name="modelos_de_aviao" nullable="1" physicalName="modelos_de_aviao" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Modelos de avião que o piloto pode pilotar.</remarks>
     </column>
-    <column id="COL26" populated="true" UUID="65d61ea1-c02e-46fa-8594-220f83c57df5" autoIncrement="false" autoIncrementSequenceName="pilotos_id_base_domestica_seq" defaultValue="" name="id_base_domestica" nullable="1" physicalName="id_base_domestica" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+    <column id="COL26" populated="true" UUID="65d61ea1-c02e-46fa-8594-220f83c57df5" autoIncrement="false" autoIncrementSequenceName="pilotos_id_base_domestica_seq" defaultValue="" name="id_base_domestica" nullable="1" physicalName="id_base_domestica" precision="0" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
      <remarks>Id da base doméstica do piloto.</remarks>
+    </column>
+    <column id="COL27" populated="true" UUID="7e71ee28-d90a-4810-9545-7231b08bffad" autoIncrement="false" autoIncrementSequenceName="voos_id_voo_seq" defaultValue="" name="id_voo" nullable="0" physicalName="id_voo" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks>Id do vôo. (PK da tabela voos)
+</remarks>
     </column>
     </folder>
     <folder id="FOLTAB123" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
@@ -99,98 +103,195 @@
     <folder id="FOLTAB122" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
     <folder id="FOLTAB124" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX27" populated="true" UUID="737e653c-96f3-4cad-8177-552feff22a4f" clustered="false" name="pilotos_pk" physicalName="pilotos_pk" primaryKeyIndex="true" unique="false" >
-     <index-column id="IDC28" populated="true" UUID="ed5676a9-a11d-4f78-87a6-e9e81825356c" ascendingOrDescending="UNSPECIFIED" column-ref="COL13" name="id_piloto" physicalName="id_piloto" />
+    <index id="IDX28" populated="true" UUID="737e653c-96f3-4cad-8177-552feff22a4f" clustered="false" name="pilotos_pk" physicalName="pilotos_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC29" populated="true" UUID="ed5676a9-a11d-4f78-87a6-e9e81825356c" ascendingOrDescending="UNSPECIFIED" column-ref="COL13" name="id_piloto" physicalName="id_piloto" />
     </index>
    </folder>
   </table>
-  <table id="TAB29" populated="true" UUID="9296ba39-4c84-46bb-9340-7c5c7b3b7aa5" name="comissarios" objectType="TABLE" physicalName="comissarios" >
+  <table id="TAB30" populated="true" UUID="9296ba39-4c84-46bb-9340-7c5c7b3b7aa5" name="comissarios" objectType="TABLE" physicalName="comissarios" >
    <remarks>Tabela de comissários.</remarks>
-   <folder id="FOLTAB291" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL30" populated="true" UUID="ad4de915-56fc-438a-b40f-efd1d0ee5781" autoIncrement="false" autoIncrementSequenceName="comissarios_id_comissario_seq" defaultValue="" name="id_comissario" nullable="0" physicalName="id_comissario" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+   <folder id="FOLTAB301" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL31" populated="true" UUID="ad4de915-56fc-438a-b40f-efd1d0ee5781" autoIncrement="false" autoIncrementSequenceName="comissarios_id_comissario_seq" defaultValue="" name="id_comissario" nullable="0" physicalName="id_comissario" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
      <remarks>Id do comissário. (PK da tabela)</remarks>
     </column>
-    <column id="COL31" populated="true" UUID="92ce9430-2eff-4723-bc11-8a67de647dc2" autoIncrement="false" autoIncrementSequenceName="comissarios_nome_comissario_seq" defaultValue="" name="nome_comissario" nullable="1" physicalName="nome_comissario" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL32" populated="true" UUID="92ce9430-2eff-4723-bc11-8a67de647dc2" autoIncrement="false" autoIncrementSequenceName="comissarios_nome_comissario_seq" defaultValue="" name="nome" nullable="1" physicalName="nome" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Nome do comissário.</remarks>
     </column>
-    <column id="COL32" populated="true" UUID="56df0e18-8daf-4644-8acb-e0506179e51d" autoIncrement="false" autoIncrementSequenceName="comissarios_endereco_comissario_seq" defaultValue="" name="endereco_comissario" nullable="1" physicalName="endereco_comissario" precision="200" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL33" populated="true" UUID="56df0e18-8daf-4644-8acb-e0506179e51d" autoIncrement="false" autoIncrementSequenceName="comissarios_endereco_comissario_seq" defaultValue="" name="endereco" nullable="1" physicalName="endereco" precision="200" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Endereço completo do comissário.</remarks>
     </column>
-    <column id="COL33" populated="true" UUID="e99d9c15-8456-43d4-afd6-ff216ae3f823" autoIncrement="false" autoIncrementSequenceName="pilotos_telefone_seq" defaultValue="" name="telefone_comissario" nullable="0" physicalName="telefone_comissario" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL34" populated="true" UUID="e99d9c15-8456-43d4-afd6-ff216ae3f823" autoIncrement="false" autoIncrementSequenceName="pilotos_telefone_seq_1" defaultValue="" name="telefone" nullable="0" physicalName="telefone" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Telefone(s) do comissário.</remarks>
     </column>
-    <column id="COL34" populated="true" UUID="9bf930d5-0ff9-4fad-9d3a-4d8199bff9ac" autoIncrement="false" autoIncrementSequenceName="pilotos_email_seq" defaultValue="" name="email_comissario" nullable="0" physicalName="email_comissario" precision="60" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL35" populated="true" UUID="9bf930d5-0ff9-4fad-9d3a-4d8199bff9ac" autoIncrement="false" autoIncrementSequenceName="pilotos_email_seq_1" defaultValue="" name="email" nullable="0" physicalName="email" precision="60" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>E-mail do comissário.</remarks>
     </column>
-    <column id="COL35" populated="true" UUID="c95f15fa-2bef-4037-be7c-64f22660fffe" autoIncrement="false" autoIncrementSequenceName="pilotos_nacionalidade_seq" defaultValue="" name="nacionalidade_comissario" nullable="1" physicalName="nacionalidade_comissario" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL36" populated="true" UUID="c95f15fa-2bef-4037-be7c-64f22660fffe" autoIncrement="false" autoIncrementSequenceName="pilotos_nacionalidade_seq_1" defaultValue="" name="nacionalidade" nullable="1" physicalName="nacionalidade" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Nacionalidade do comissário.</remarks>
     </column>
-    <column id="COL36" populated="true" UUID="f9a1b133-0aa6-46fe-a056-c11ac5eca9c1" autoIncrement="false" autoIncrementSequenceName="pilotos_cargo_seq" defaultValue="" name="cargo_comissario" nullable="1" physicalName="cargo_comissario" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL37" populated="true" UUID="f9a1b133-0aa6-46fe-a056-c11ac5eca9c1" autoIncrement="false" autoIncrementSequenceName="pilotos_cargo_seq_1" defaultValue="" name="cargo" nullable="1" physicalName="cargo" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Cargo do comissário.</remarks>
     </column>
-    <column id="COL37" populated="true" UUID="daf0ac50-f4ae-439d-9caf-d618f066b261" autoIncrement="false" autoIncrementSequenceName="comissarios_salário_comissario_seq" defaultValue="" name="salário_comissario" nullable="1" physicalName="salário_comissario" precision="8" referenceCount="1" scale="2" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+    <column id="COL38" populated="true" UUID="daf0ac50-f4ae-439d-9caf-d618f066b261" autoIncrement="false" autoIncrementSequenceName="comissarios_salário_comissario_seq" defaultValue="" name="salario" nullable="1" physicalName="salario" precision="8" referenceCount="1" scale="2" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
      <remarks>Salário do comissário.</remarks>
     </column>
-    <column id="COL38" populated="true" UUID="520b447b-97af-4bfe-be57-8f6028737c22" autoIncrement="false" autoIncrementSequenceName="comissarios_data_de_admissao_comissario_seq" defaultValue="" name="data_de_admissao_comissario" nullable="1" physicalName="data_de_admissao_comissario" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+    <column id="COL39" populated="true" UUID="520b447b-97af-4bfe-be57-8f6028737c22" autoIncrement="false" autoIncrementSequenceName="comissarios_data_de_admissao_comissario_seq" defaultValue="" name="data_de_admissao" nullable="1" physicalName="data_de_admissao" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
      <remarks>Data de admissão do comissário.</remarks>
     </column>
-    <column id="COL39" populated="true" UUID="7d149a66-3082-4a4b-be8e-4341a4455307" autoIncrement="false" autoIncrementSequenceName="comissarios_idiomas_comissario_seq" defaultValue="" name="idiomas_comissario" nullable="1" physicalName="idiomas_comissario" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL40" populated="true" UUID="7d149a66-3082-4a4b-be8e-4341a4455307" autoIncrement="false" autoIncrementSequenceName="comissarios_idiomas_comissario_seq" defaultValue="" name="idiomas" nullable="1" physicalName="idiomas" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Idiomas falados pelo comissário.</remarks>
     </column>
-    <column id="COL40" populated="true" UUID="4132d976-17d9-459c-bd15-61a138fd0cf9" autoIncrement="false" autoIncrementSequenceName="comissarios_id_base_domestica_seq" defaultValue="" name="id_base_domestica" nullable="1" physicalName="id_base_domestica" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+    <column id="COL41" populated="true" UUID="4132d976-17d9-459c-bd15-61a138fd0cf9" autoIncrement="false" autoIncrementSequenceName="comissarios_id_base_domestica_seq" defaultValue="" name="id_base_domestica" nullable="1" physicalName="id_base_domestica" precision="0" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
      <remarks>Id da base doméstica do comissário.</remarks>
     </column>
     </folder>
-    <folder id="FOLTAB293" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    <folder id="FOLTAB303" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
     </folder>
-    <folder id="FOLTAB292" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    <folder id="FOLTAB302" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
-    <folder id="FOLTAB294" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX41" populated="true" UUID="25ed5a34-459c-4a08-acbe-3a27762a6f09" clustered="false" name="comissarios_pk" physicalName="pilotos_pk" primaryKeyIndex="true" unique="false" >
-     <index-column id="IDC42" populated="true" UUID="783a056a-893e-4081-aa25-5c971b801ac6" ascendingOrDescending="UNSPECIFIED" column-ref="COL30" name="id_comissario" physicalName="id_comissario" />
+    <folder id="FOLTAB304" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX42" populated="true" UUID="25ed5a34-459c-4a08-acbe-3a27762a6f09" clustered="false" name="comissarios_pk" physicalName="comissarios_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC43" populated="true" UUID="783a056a-893e-4081-aa25-5c971b801ac6" ascendingOrDescending="UNSPECIFIED" column-ref="COL31" name="id_comissario" physicalName="id_comissario" />
     </index>
    </folder>
   </table>
-  <table id="TAB43" populated="true" UUID="afed9f61-e9f2-49e3-a62b-6dd3ca243c67" name="base_domestica" objectType="TABLE" physicalName="base_domestica" >
+  <table id="TAB44" populated="true" UUID="afed9f61-e9f2-49e3-a62b-6dd3ca243c67" name="base_domestica" objectType="TABLE" physicalName="base_domestica" >
    <remarks>Tabela de bases domésticas.</remarks>
-   <folder id="FOLTAB431" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL44" populated="true" UUID="ece5c05c-9a3d-4533-aa05-86ba11dbd55f" autoIncrement="false" autoIncrementSequenceName="base_domestica_id_base_domestica_seq" defaultValue="" name="id_base_domestica" nullable="0" physicalName="id_base_domestica" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+   <folder id="FOLTAB441" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL45" populated="true" UUID="ece5c05c-9a3d-4533-aa05-86ba11dbd55f" autoIncrement="false" autoIncrementSequenceName="base_domestica_id_base_domestica_seq" defaultValue="" name="id_base_domestica" nullable="0" physicalName="id_base_domestica" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
      <remarks>Id da base doméstica. (PK da tabela base_domestica).</remarks>
     </column>
-    <column id="COL45" populated="true" UUID="f78a76e8-b61f-41cb-adff-e732c3335e34" autoIncrement="false" autoIncrementSequenceName="base_domestica_nome_base_domestica_seq" defaultValue="" name="nome_base_domestica" nullable="1" physicalName="nome_base_domestica" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL46" populated="true" UUID="f78a76e8-b61f-41cb-adff-e732c3335e34" autoIncrement="false" autoIncrementSequenceName="base_domestica_nome_base_domestica_seq" defaultValue="" name="nome_base_domestica" nullable="1" physicalName="nome_base_domestica" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Nome da base doméstica.</remarks>
     </column>
-    <column id="COL46" populated="true" UUID="81599b69-981e-4ea8-8943-faada14156c2" autoIncrement="false" autoIncrementSequenceName="base_domestica_pessoa_responsavel_base_domestica_seq" defaultValue="" name="pessoa_responsavel_base_domestica" nullable="1" physicalName="pessoa_responsavel_base_domestica" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL47" populated="true" UUID="81599b69-981e-4ea8-8943-faada14156c2" autoIncrement="false" autoIncrementSequenceName="base_domestica_pessoa_responsavel_base_domestica_seq" defaultValue="" name="pessoa_responsavel_base_domestica" nullable="1" physicalName="pessoa_responsavel_base_domestica" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Pessoa responsável pela base doméstica.</remarks>
     </column>
-    <column id="COL47" populated="true" UUID="9d4cef3b-a327-401a-a89a-572367a1caac" autoIncrement="false" autoIncrementSequenceName="base_domestica_capacidade_max_seq" defaultValue="" name="capacidade_max" nullable="1" physicalName="capacidade_max" precision="3" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+    <column id="COL48" populated="true" UUID="9d4cef3b-a327-401a-a89a-572367a1caac" autoIncrement="false" autoIncrementSequenceName="base_domestica_capacidade_max_seq" defaultValue="" name="capacidade_max" nullable="1" physicalName="capacidade_max" precision="3" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
      <remarks>Capacidade máxima da base doméstica.</remarks>
     </column>
-    <column id="COL48" populated="true" UUID="ce63756a-aedd-4cf0-86a2-8dfb68a63b25" autoIncrement="false" autoIncrementSequenceName="base_domestica_horario_funcionamento_base_domestica_seq" defaultValue="" name="horario_funcionamento_base_domestica" nullable="1" physicalName="horario_funcionamento_base_domestica" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="92" userDefinedTypeUUID="10d6960f-169d-47c2-860a-37341342b1d5" >
+    <column id="COL49" populated="true" UUID="ce63756a-aedd-4cf0-86a2-8dfb68a63b25" autoIncrement="false" autoIncrementSequenceName="base_domestica_horario_funcionamento_base_domestica_seq" defaultValue="" name="horario_funcionamento_base_domestica" nullable="1" physicalName="horario_funcionamento_base_domestica" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="92" userDefinedTypeUUID="10d6960f-169d-47c2-860a-37341342b1d5" >
      <remarks>Horário de funcionamento da base doméstica.</remarks>
     </column>
     </folder>
-    <folder id="FOLTAB433" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    <folder id="FOLTAB443" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
     </folder>
-    <folder id="FOLTAB432" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    <folder id="FOLTAB442" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
-    <folder id="FOLTAB434" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX49" populated="true" UUID="5b02124d-756b-481a-8d7e-b0a6530c8aba" clustered="false" name="base_domestica_pk" physicalName="base_domestica_pk" primaryKeyIndex="true" unique="false" >
-     <index-column id="IDC50" populated="true" UUID="e1a3efe8-4692-49ca-86f4-8abdd8e4c152" ascendingOrDescending="UNSPECIFIED" column-ref="COL44" name="id_base_domestica" physicalName="id_base_domestica" />
+    <folder id="FOLTAB444" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX50" populated="true" UUID="5b02124d-756b-481a-8d7e-b0a6530c8aba" clustered="false" name="base_domestica_pk" physicalName="base_domestica_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC51" populated="true" UUID="e1a3efe8-4692-49ca-86f4-8abdd8e4c152" ascendingOrDescending="UNSPECIFIED" column-ref="COL45" name="id_base_domestica" physicalName="id_base_domestica" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB52" populated="true" UUID="5f18acfa-8597-4554-a1b5-39aca8d5282d" name="voos" objectType="TABLE" physicalName="voos" >
+   <remarks></remarks>
+   <folder id="FOLTAB521" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL53" populated="true" UUID="934ebf8e-8770-4010-accd-5a6ea3cb9c1a" autoIncrement="false" autoIncrementSequenceName="voos_id_voo_seq_1" defaultValue="" name="id_voo" nullable="0" physicalName="id_voo" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks>Id do vôo. (PK da tabela voos)
+</remarks>
+    </column>
+    <column id="COL54" populated="true" UUID="ed1e08b9-c722-452c-9572-7b4c0b364b6f" autoIncrement="false" autoIncrementSequenceName="voos_data_prevista_seq" defaultValue="" name="data_prevista" nullable="1" physicalName="data_prevista" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks>Data prevista do vôo.</remarks>
+    </column>
+    <column id="COL55" populated="true" UUID="e634574f-46cc-4a99-9878-b6b106cc395c" autoIncrement="false" autoIncrementSequenceName="voos_local_de_saida_seq" defaultValue="" name="local_de_saida" nullable="1" physicalName="local_de_saida" precision="255" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Local de saída do vôo.</remarks>
+    </column>
+    <column id="COL56" populated="true" UUID="9e5943fd-cbe8-41da-bbe8-082ada732a87" autoIncrement="false" autoIncrementSequenceName="voos_hora_de_chegada_seq" defaultValue="" name="hora_de_chegada" nullable="1" physicalName="hora_de_chegada" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="93" userDefinedTypeUUID="6497d8de-0e00-40d6-a42e-e2adca83be64" >
+     <remarks>Hora de chegada prevista do vôo.</remarks>
+    </column>
+    <column id="COL57" populated="true" UUID="8a10140b-7ddb-4d57-ba7b-6f9332d8ea58" autoIncrement="false" autoIncrementSequenceName="voos_numero_escala_seq" defaultValue="" name="numero_escala" nullable="1" physicalName="numero_escala" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks>Numero de escala do vôo.</remarks>
+    </column>
+    <column id="COL58" populated="true" UUID="eacdac31-4884-4fba-9508-b08cecf4109c" autoIncrement="false" autoIncrementSequenceName="voos_local_de_destino_seq" defaultValue="" name="local_de_destino" nullable="1" physicalName="local_de_destino" precision="255" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Local de destino do vôo.</remarks>
+    </column>
+    <column id="COL59" populated="true" UUID="96b87e05-c2d7-4d85-9a1c-5800b88ec7af" autoIncrement="false" autoIncrementSequenceName="voos_qtde_pilotos_seq" defaultValue="" name="qtde_pilotos" nullable="0" physicalName="qtde_pilotos" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks>Quantidade de pilotos no vôo. (1, 3)</remarks>
+    </column>
+    <column id="COL60" populated="true" UUID="46ba187f-e982-41e7-8d3b-aefd006d6478" autoIncrement="false" autoIncrementSequenceName="voos_qtde_comissarios_seq" defaultValue="" name="qtde_comissarios" nullable="0" physicalName="qtde_comissarios" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Quantidade de comissário no vôo. (1, 20)</remarks>
+    </column>
+    <column id="COL61" populated="true" UUID="ad0f54a2-74ef-4617-9ed5-6a47a5730b31" autoIncrement="false" autoIncrementSequenceName="voos_aviao_seq" defaultValue="" name="aviao" nullable="0" physicalName="aviao" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Avião utilizado no vôo.</remarks>
+    </column>
+    <column id="COL62" populated="true" UUID="24fcc888-95b0-4f93-8347-8edfead1f75d" autoIncrement="false" autoIncrementSequenceName="avioes_id_aviao_seq_1" defaultValue="" name="id_aviao" nullable="0" physicalName="id_aviao" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+     <remarks>Id do avião. (PK da tabela aviões).</remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB523" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB522" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB524" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX63" populated="true" UUID="18fc2aa7-503b-4d7d-a606-5368e8b3e64c" clustered="false" name="voos_pk" physicalName="voos_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC64" populated="true" UUID="c05b2b10-0a69-44a8-a6e8-260a22de6979" ascendingOrDescending="UNSPECIFIED" column-ref="COL53" name="id_voo" physicalName="id_voo" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB65" populated="true" UUID="1c0641a8-e5d0-4f0b-84af-7f0ca7dbeb43" name="base_manutencao" objectType="TABLE" physicalName="base_manutencao" >
+   <remarks>Tabela de bases de manutenção.</remarks>
+   <folder id="FOLTAB651" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL66" populated="true" UUID="abbbe007-7511-4fd6-a054-15596964f2bf" autoIncrement="false" autoIncrementSequenceName="base_manutencao_id_base_manutencao_seq" defaultValue="" name="id_base_manutencao" nullable="0" physicalName="id_base_manutencao" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks>Id da base de manutenção. (PK da tabela base_manutencao)</remarks>
+    </column>
+    <column id="COL67" populated="true" UUID="3e9cd375-d9dd-4dda-87f4-0ed1156d50d4" autoIncrement="false" autoIncrementSequenceName="base_manutencao_nome_base_manutencao_seq" defaultValue="" name="nome_base_manutencao" nullable="1" physicalName="nome_base_manutencao" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Nome da base de manutenção.</remarks>
+    </column>
+    <column id="COL68" populated="true" UUID="d30f9bc1-0eda-4e0c-a8df-a205b6bfe4ac" autoIncrement="false" autoIncrementSequenceName="base_manutencao_telefone_seq" defaultValue="" name="telefone" nullable="0" physicalName="telefone" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Telefone(s) da base de manutenção.</remarks>
+    </column>
+    <column id="COL69" populated="true" UUID="28b284eb-75d4-477b-b74b-5d81d9625fde" autoIncrement="false" autoIncrementSequenceName="base_manutencao_nome_responsavel_base_manutencao_seq" defaultValue="" name="nome_responsavel_base_manutencao" nullable="1" physicalName="nome_responsavel_base_manutencao" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks>Nome do responsável da base de manutenção.</remarks>
+    </column>
+    <column id="COL70" populated="true" UUID="b1a0d040-5cb7-4988-bcbf-e0c7a414a0ec" autoIncrement="false" autoIncrementSequenceName="base_manutencao_horario_de_funcionamento_seq" defaultValue="" name="horario_de_funcionamento" nullable="0" physicalName="horario_de_funcionamento" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="93" userDefinedTypeUUID="6497d8de-0e00-40d6-a42e-e2adca83be64" >
+     <remarks>Horário de funcionamento da base de manutenção.</remarks>
+    </column>
+    <column id="COL71" populated="true" UUID="72914621-a024-4c93-8d96-cb5a4421b4d5" autoIncrement="false" autoIncrementSequenceName="base_manutencao_capacidade_seq" defaultValue="" name="capacidade" nullable="1" physicalName="capacidade" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks>Capacidade de armazenamento da base de manutenção.</remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB653" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB652" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB654" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX72" populated="true" UUID="16ed5dc3-897c-4f30-abfe-1f1bc5bef6ce" clustered="false" name="base_manutencao_pk" physicalName="base_manutencao_pk" primaryKeyIndex="true" unique="false" >
     </index>
    </folder>
   </table>
   <relationships>
+   <relationship id="REL73" populated="true" UUID="91064b33-1177-4653-96ce-f6e6465cd3c1" deferrability="7" deleteRule="3" fk-table-ref="TAB52" fkCardinality="7" identifying="false" name="avioes_voos_fk" physicalName="avioes_voos_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP74" populated="true" UUID="7e33b055-4175-4f1f-bc3e-86d8283f35c7" fk-column-ref="COL62" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
+   </relationship>
+   <relationship id="REL75" populated="true" UUID="31d01211-eb0a-47f5-ab48-d04f4e310706" deferrability="7" deleteRule="3" fk-table-ref="TAB12" fkCardinality="7" identifying="false" name="base_domestica_pilotos_fk" physicalName="base_domestica_pilotos_fk" pk-table-ref="TAB44" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP76" populated="true" UUID="c8e2df45-edad-4824-8027-74d3ea89284b" fk-column-ref="COL26" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL45" />
+   </relationship>
+   <relationship id="REL77" populated="true" UUID="f1ed2883-089d-4ab3-b1b3-ce2d64371160" deferrability="7" deleteRule="3" fk-table-ref="TAB30" fkCardinality="7" identifying="false" name="base_domestica_comissarios_fk" physicalName="base_domestica_comissarios_fk" pk-table-ref="TAB44" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP78" populated="true" UUID="de70df0a-acdd-4215-ae81-9f04e4b45704" fk-column-ref="COL41" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL45" />
+   </relationship>
+   <relationship id="REL79" populated="true" UUID="6f471081-5d35-4e72-8d05-78e1bd84b02c" deferrability="7" deleteRule="3" fk-table-ref="TAB12" fkCardinality="6" identifying="false" name="voos_pilotos_fk" physicalName="voos_pilotos_fk" pk-table-ref="TAB52" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP80" populated="true" UUID="48e3673b-1307-4eca-a077-dd6b1b7ec8b9" fk-column-ref="COL27" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL53" />
+   </relationship>
+   <relationship id="REL81" populated="true" UUID="6945fd76-8ff1-4dc1-8ca7-dbeeeeb142a1" deferrability="7" deleteRule="3" fk-table-ref="TAB1" fkCardinality="7" identifying="false" name="base_manutencao_avioes_fk" physicalName="base_manutencao_avioes_fk" pk-table-ref="TAB65" pkCardinality="2" updateRule="3" >
+   </relationship>
   </relationships>
  </target-database>
- <ddl-generator type="ca.sqlpower.architect.ddl.GenericDDLGenerator" allow-connection="true"> </ddl-generator>
+ <ddl-generator type="ca.sqlpower.architect.ddl.PostgresDDLGenerator" allow-connection="false" target-schema="public"> </ddl-generator>
  <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
  <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
- <play-pen zoom="1.0" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
-  <table-pane table-ref="TAB1" x="183" y="53" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB12" x="609" y="60" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB29" x="1028" y="80" bgColor="0xf0f0f0" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB43" x="296" y="466" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+ <play-pen zoom="0.7071067811865471" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
+  <table-pane table-ref="TAB1" x="71" y="502" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB12" x="531" y="44" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB30" x="1066" y="385" bgColor="0xf0f0f0" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB44" x="994" y="62" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB52" x="530" y="475" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB65" x="62" y="825" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-link relationship-ref="REL75" pkConnection="0.6879432624113475" fkConnection="0.43333333333333335" rLineColor="0x2e3436" pkLabelText="" fkLabelText="" orientation="18"/>
+  <table-link relationship-ref="REL77" pkConnection="0.5257142857142857" fkConnection="0.4405144694533762" rLineColor="0x2e3436" pkLabelText="" fkLabelText="" orientation="132"/>
+  <table-link relationship-ref="REL79" pkConnection="0.4709897610921502" fkConnection="0.5434782608695652" rLineColor="0x2e3436" pkLabelText="" fkLabelText="" orientation="72"/>
+  <table-link relationship-ref="REL73" pkConnection="0.5196078431372549" fkConnection="0.47560975609756095" rLineColor="0x2e3436" pkLabelText="" fkLabelText="" orientation="33"/>
+  <table-link relationship-ref="REL81" pkConnection="0.44854881266490765" fkConnection="0.5860805860805861" rLineColor="0x2e3436" pkLabelText="" fkLabelText="" orientation="72"/>
  </play-pen>
  <critic-manager>
   <critic-grouping platformType="Generic" enabled="true">
